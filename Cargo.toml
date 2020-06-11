@@ -1,0 +1,10 @@
+[package]
+name = "deno-ftp"
+version = "0.1.0"
+authors = ["Akshat Agarwal <humancalico@disroot.org>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+deno_core = "0.47.1"
