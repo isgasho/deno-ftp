@@ -8,3 +8,7 @@ edition = "2018"
 
 [dependencies]
 deno_core = "0.47.1"
+ftp = { version = "3.0.1", features = ["secure"] }
+serde = { version = "1.0.111", features = ["derive"] }
+serde_json = { version = "1.0.55", features = [ "preserve_order" ] }
+futures = { version = "0.3.5", features = ["compat", "io-compat"] }
